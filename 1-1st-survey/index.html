@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h1 id="title"> EVENT REGISTRATION FORM</h1>
+    <p id="description">Registration form for freecodecamp</p>
+
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">What is your name ? <input type="text" id="name" placeholder=" Write your name here." required </label>
+            <label id="email-label">What is your email ? <input type="email" id="email" placeholder=" Write your email here." required </label> 
+            <label id="number-label">Select a password: <input type="number" id="number" min="1" max="12" placeholder=" A strong one." required</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
+            <label for="company-account"><input id="company-account" type="radio" name="account-type" class="inline" /> Company Account</label>
+            <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the terms and conditions.</label>
+            <label for="rules-and-regulations"><input id="rules-and-regulations" type="checkbox" required name="rules-and-regulations" class="inline" /> I accept the rules and regulations.</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+            <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+            <label for="referrer">How did you hear about us?
+                <select id="dropdown" name="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">Internet</option>
+                    <option value="2">Social Media</option>
+                    <option value="3">From a friend</option>
+                    <option value="4">Other</option>
+                </select>
+            </label>
+            <label for="bio">Provide a bio:
+                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I am a freak for events...."></textarea>
+            </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+
+    </form>
+
+</body>
+</html>
