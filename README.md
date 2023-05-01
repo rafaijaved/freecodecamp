@@ -15,5 +15,5 @@ This repository contains all of the source code used in the certification course
 
 - [1st-Project](https://rafaijaved.github.io/freecodecamp-responsive-web-design/1-1st-survey/index.html)
 - [2nd-Project](https://rafaijaved.github.io/freecodecamp-responsive-web-design/2-Tribute-page/index.html)
-- [3rd-Porject](https://rafaijaved.github.io/freecodecamp-responsive-web-design/3-Documentation-page/index.html)
-- [4th-Porject](https://rafaijaved.github.io/freecodecamp-responsive-web-design/4-Product-Landing-Page/index.html)
+- [3rd-Project](https://rafaijaved.github.io/freecodecamp-responsive-web-design/3-Documentation-page/index.html)
+- [4th-Project](https://rafaijaved.github.io/freecodecamp-responsive-web-design/4-Product-Landing-Page/index.html)
