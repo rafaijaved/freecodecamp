@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  line-height: 1.5;
+  background-color: #fefae0;
+}
+
+#navbar {
+  display: flex;
+  background-color: #faedcd;
+  color: #c99764;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 270px;
+  width: 280px;
+  height: 100%;
+  border-right: solid 2px;
+  padding-right: 10px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow: auto;
+}
+
+#navbar li {
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navbar-header {
+  font-weight: 500;
+  font-size: 27px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: #c99764;
+  margin-left: 10px;
+  margin-top: 18px;
+  text-decoration: none;
+  border-bottom: solid 1px;
+  padding: 5px;
+}
+
+#main-doc {
+  position: absolute;
+  margin: 0px 20px 0 300px;
+}
+
+#main-doc header {
+  color: #d4a373;
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+#main-doc section {
+  color: #4d4e53;
+}
+
+#main-doc code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  color: #4d4e53;
+  background-color: #e9edc9;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 480px) {
+  #navbar {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 250px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+    text-align: center;
+  }
+
+  .nav-link {
+    line-height: 0.8rem;
+    font-size: 15px;
+  }
+
+  #navbar-header {
+    font-size: 24px;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 5px;
+    margin-top: 260px;
+  }
+}
