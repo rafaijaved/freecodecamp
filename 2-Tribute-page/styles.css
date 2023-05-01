@@ -147,3 +147,53 @@ footer a {
   text-decoration: none;
   color: #f0f0f0;
 }
+
+@media screen and (max-width: 420px) {
+  ul {
+    margin-left: 25px;
+  }
+
+  li a {
+    display: flex;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  .hero-section-img img {
+    filter: brightness(50%);
+  }
+
+  .hero-section-name {
+    position: absolute;
+    left: 20px;
+    font-size: 40px;
+    top: 150px;
+    width: 100%;
+    top: 500px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .hero-section-name p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-right: 30px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    padding-top: 30px;
+  }
+
+  footer {
+    padding-top: 10px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+}
