@@ -103,7 +103,7 @@ ul li > a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 120px;
+  padding-top: 170px;
 
   padding-bottom: 30px;
 }
@@ -124,11 +124,13 @@ h1 {
 }
 
 .body-section {
-  margin-inline: auto;
-  width: 95%;
+  justify-content: center;
+  align-items: center;
   display: grid;
-  gap: 40px;
   grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: calc(1200px - 40px);
+  margin-inline: auto;
 }
 
 .grid1,
@@ -155,15 +157,12 @@ h1 {
   padding-top: 30px;
   line-height: 3rem;
   width: 80%;
+  font-size: var(--grid-paragraph-fs);
 }
 
 .grid-heading {
   font-size: var(--grid-heading-fs);
   font-weight: 600;
-}
-
-.grid-info {
-  font-size: var(--grid-paragraph-fs);
 }
 
 .grid-button {
@@ -207,8 +206,6 @@ h1 {
 .learn-more:hover {
   color: var(--button-hover-color);
 }
-
-
 
 .video-section {
   display: flex;
@@ -457,7 +454,6 @@ footer p {
 
   .nav-link {
     font-size: 14px;
-    
   }
 
   .nav-button {
