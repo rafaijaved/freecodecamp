@@ -149,6 +149,10 @@ footer a {
 }
 
 @media screen and (max-width: 420px) {
+  body {
+    overflow-x: hidden;
+  }
+
   ul {
     margin-left: 25px;
   }
@@ -170,7 +174,6 @@ footer a {
     position: absolute;
     left: 20px;
     font-size: 40px;
-    top: 150px;
     width: 100%;
     top: 500px;
   }
