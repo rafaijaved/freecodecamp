@@ -379,3 +379,27 @@ a {
 .links-info p:hover {
   color: var(--accent-color);
 }
+
+.footer-container {
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-inline: auto;
+  padding-block: 30px;
+}
+
+.footer p {
+  font-family: var(--mulish);
+  color: #ffffff;
+  font-size: var(--size-300);
+}
+
+.footer img {
+  width: 40px;
+}
