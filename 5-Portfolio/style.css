@@ -402,13 +402,13 @@ a {
   align-items: center;
   width: 70%;
   margin-inline: auto;
-  padding-block: 30px;
+  padding-block: 20px;
 }
 
 .footer p {
   font-family: var(--mulish);
   color: #ffffff;
-  font-size: var(--size-300);
+  font-size: var(--size-200);
 }
 
 .footer img {
