@@ -403,3 +403,7 @@ a {
 .footer img {
   width: 40px;
 }
+
+.footer img:hover {
+  content: url(./Assets/up-arrow-hover.png);
+}
