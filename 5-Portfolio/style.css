@@ -251,7 +251,7 @@ a {
   width: 600px;
   height: 350px;
   object-fit: cover;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
   border-radius: 17px;
   -webkit-border-radius: 17px;
   -moz-border-radius: 17px;
