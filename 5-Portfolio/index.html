@@ -14,7 +14,8 @@
 
     <nav class="nav-bar" id="navbar">
       <span class="logo"><a href="#">Rafai Javed.</a></span>
-      <ul class="nav-list">
+      <a href="#toggle" class="navbar-toggle"><i class="fa-solid fa-bars" style="color: #242424;"></i></a>
+      <ul class="nav-list" id="toggle">
         <li>
           <a href="#">Home</a>
         </li>
@@ -27,6 +28,7 @@
         <li>
           <a href="#contact">Contact</a>
         </li>
+        <a href="#" class="close-toggle"><i class="fa-solid fa-xmark" style="color: #242424;"></i></a>
       </ul>
     </nav>
 
@@ -145,7 +147,7 @@
 
         <!-------------------- PROJECT 2 -------------------->
 
-        <div class="portfolio-project">
+        <div class="portfolio-project flex-colum-section">
           <div class="left-project-info">
             <div class="project-buttons">
               <p>JavaScript</p>
@@ -214,7 +216,7 @@
 
         <!-------------------- PROJECT 4 -------------------->
 
-        <div class="portfolio-project">
+        <div class="portfolio-project flex-colum-section">
           <div class="left-project-info">
             <div class="project-buttons">
               <p>JavaScript</p>
@@ -331,5 +333,6 @@
     </div>
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://kit.fontawesome.com/00d48fb111.js" crossorigin="anonymous"></script>
   </body>
 </html>
