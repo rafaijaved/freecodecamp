@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@400;600&display=swap");
 
+/* < ---------------- > GENERAL STYLING < ---------------- >  */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,7 +27,7 @@ a {
   text-decoration: none;
 }
 
-/*---------- VARIABLES ----------*/
+/* < ---------------- > VARIABLES < ---------------- >  */
 
 :root {
   --montserrat: "Montserrat", sans-serif;
@@ -51,6 +53,8 @@ a {
   --accent-color: #147efb;
   --bg-color: #f9f9f9;
 }
+
+/* < ---------------- > NAV BAR < ---------------- >  */
 
 .nav-bar {
   position: fixed;
@@ -93,10 +97,13 @@ a {
   color: var(--accent-color);
 }
 
+/* < ---------------- > HERO SECTION < ---------------- >  */
+
 .container {
   background-color: var(--bg-color);
   padding-top: var(--size-400);
   height: 100vh;
+  width: 100%;
 }
 
 .hero-section {
@@ -142,7 +149,7 @@ a {
 }
 
 .hero-social-logo img {
-  width: 3.5rem;
+  width: 3rem;
   margin-inline: 2px;
 }
 
@@ -172,6 +179,8 @@ a {
   margin-inline: 10px;
 }
 
+/* < ---------------- > ABOUT SECTION < ---------------- >  */
+
 .about-section {
   display: flex;
   align-items: center;
@@ -184,6 +193,10 @@ a {
 
 .about-video {
   z-index: -99;
+}
+
+lottie-player {
+  width: 500px;
 }
 
 .about-info h2 {
@@ -206,6 +219,8 @@ a {
   font-size: var(--size-100);
   line-height: 25px;
 }
+
+/* < ---------------- > PORTFOLIO SECTION < ---------------- >  */
 
 .portfolio-section {
   width: 100%;
@@ -343,6 +358,8 @@ a {
   content: url(./Assets/arrow-hover.png);
 }
 
+/* < ---------------- > CONTACT SECTION < ---------------- >  */
+
 .contact-section {
   width: 70%;
   margin-inline: auto;
@@ -424,4 +441,100 @@ a {
 
 .footer img:hover {
   content: url(./Assets/up-arrow-hover.png);
+}
+
+/* < ---------------- > LAPTOP SMALL < ---------------- >  */
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  /* < ---------------- > hero section < ---------------- >  */
+
+  .hero-section {
+    width: 90%;
+  }
+
+  .hero-info-section h1 {
+    font-size: var(--size-350);
+  }
+
+  .hero-info-section > p {
+    font-size: var(--size-150);
+  }
+
+  .hero-img img {
+    width: 18rem;
+  }
+
+  .hero-social-logo img {
+    width: 2.5rem;
+  }
+
+  /* < ---------------- > about section < ---------------- >  */
+
+  .about-section {
+    width: 90%;
+    gap: 10px;
+  }
+
+  lottie-player {
+    width: 400px;
+  }
+
+  .about-info h2 {
+    font-size: var(--size-100);
+  }
+
+  .about-info h3 {
+    font-variant: var(--size-200);
+  }
+
+  /* < ---------------- > portfolio section < ---------------- >  */
+
+  .portfolio-container {
+    width: 90%;
+  }
+
+  .project img {
+    width: 500px;
+    height: 300px;
+  }
+
+  .right-project-info p,
+  .left-project-info p {
+    font-size: var(--size-50);
+  }
+
+  .project-links {
+    margin-top: 20px;
+  }
+
+  /* < ---------------- > contact section < ---------------- >  */
+
+  .contact-section {
+    width: 90%;
+  }
+
+  .contact-heading h2 {
+    font-size: var(--size-150);
+  }
+
+  .contact-heading h3 {
+    font-size: var(--size-300);
+  }
+
+  .links img {
+    width: 40px;
+  }
+
+  .links-info h4 {
+    font-size: var(--size-150);
+  }
+
+  .links-info p {
+    font-size: var(--size-50);
+  }
+
+  .footer {
+    width: 90%;
+    padding-block: 10px;
+  }
 }
