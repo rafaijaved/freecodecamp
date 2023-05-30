@@ -159,11 +159,11 @@ a {
 }
 
 .github-logo:hover {
-  content: url(./Assets/github-logo-hover.png);
+  content: url(/Assets/github-logo-hover.png);
 }
 
 .linkedin-logo:hover {
-  content: url(./Assets/linkedin-logo-hover.png);
+  content: url(/Assets/linkedin-logo-hover.png);
 }
 
 .tech-stack {
